@@ -1,0 +1,23 @@
+!python main.py \
+    --data_path /content/drive/MyDrive/EEG_data/eeg_data.pkl \
+    --epochs_per_fold 50 \
+    --batch_size 32 \
+    --lr 5e-5 \
+    --weight_decay 1e-3 \
+    --dropout_rate 0.6 \
+    --depth 2 \
+    --heads 4 \
+    --dim_head 32 \
+    --num_T 16 \
+    --patch_time 20 \
+    --patch_step 10 \
+    --window_size 400 \
+    --step_size 800 \
+    --sampling_rate 200 \
+    --num_classes 3 \
+    --log_interval 100 \
+    --save_path ./loso_cv_runs \
+    --metric_to_optimize AUC \
+    --use_scheduler \
+    --scheduler_patience 5 \
+    --early_stopping_patience 10
