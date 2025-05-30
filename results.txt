@@ -1,0 +1,32 @@
+--- LOSO Cross-Validation Finished ---
+Average Test Accuracy across 26 folds: 41.93% (+/- 7.25%)
+Average Test F1-macro across 26 folds: 35.39% (+/- 8.64%)
+Average Test AUC across 26 folds: 0.6358 (+/- 0.0993)
+
+Individual fold test metrics:
+  Fold 1 (Test Subj: VP001-EEG): Acc=39.11%, F1=35.57%, AUC=0.5752
+  Fold 2 (Test Subj: VP002-EEG): Acc=32.68%, F1=20.53%, AUC=0.4916
+  Fold 3 (Test Subj: VP003-EEG): Acc=38.76%, F1=32.72%, AUC=0.5440
+  Fold 4 (Test Subj: VP004-EEG): Acc=34.91%, F1=24.75%, AUC=0.4732
+  Fold 5 (Test Subj: VP005-EEG): Acc=46.68%, F1=37.07%, AUC=0.8320
+  Fold 6 (Test Subj: VP006-EEG): Acc=39.70%, F1=29.52%, AUC=0.5453
+  Fold 7 (Test Subj: VP007-EEG): Acc=41.16%, F1=39.90%, AUC=0.6853
+  Fold 8 (Test Subj: VP008-EEG): Acc=41.56%, F1=40.99%, AUC=0.6379
+  Fold 9 (Test Subj: VP009-EEG): Acc=25.28%, F1=15.65%, AUC=0.4523
+  Fold 10 (Test Subj: VP010-EEG): Acc=32.84%, F1=26.92%, AUC=0.5603
+  Fold 11 (Test Subj: VP011-EEG): Acc=46.54%, F1=43.45%, AUC=0.6672
+  Fold 12 (Test Subj: VP012-EEG): Acc=39.13%, F1=31.02%, AUC=0.6411
+  Fold 13 (Test Subj: VP013-EEG): Acc=44.10%, F1=34.28%, AUC=0.6856
+  Fold 14 (Test Subj: VP014-EEG): Acc=44.54%, F1=39.63%, AUC=0.7422
+  Fold 15 (Test Subj: VP015-EEG): Acc=40.28%, F1=33.92%, AUC=0.5554
+  Fold 16 (Test Subj: VP016-EEG): Acc=40.44%, F1=31.74%, AUC=0.5992
+  Fold 17 (Test Subj: VP017-EEG): Acc=60.85%, F1=49.84%, AUC=0.8001
+  Fold 18 (Test Subj: VP018-EEG): Acc=49.20%, F1=48.58%, AUC=0.6787
+  Fold 19 (Test Subj: VP019-EEG): Acc=36.37%, F1=31.99%, AUC=0.7799
+  Fold 20 (Test Subj: VP020-EEG): Acc=51.19%, F1=48.82%, AUC=0.6995
+  Fold 21 (Test Subj: VP021-EEG): Acc=43.66%, F1=37.75%, AUC=0.6856
+  Fold 22 (Test Subj: VP022-EEG): Acc=49.61%, F1=46.31%, AUC=0.7351
+  Fold 23 (Test Subj: VP023-EEG): Acc=54.29%, F1=47.66%, AUC=0.7064
+  Fold 24 (Test Subj: VP024-EEG): Acc=41.53%, F1=28.55%, AUC=0.5941
+  Fold 25 (Test Subj: VP025-EEG): Acc=39.08%, F1=32.85%, AUC=0.5209
+  Fold 26 (Test Subj: VP026-EEG): Acc=36.60%, F1=30.03%, AUC=0.6429
